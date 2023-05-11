@@ -1,0 +1,478 @@
+@media(max-width:1365px) {
+  .container {
+    max-width: 1140px;
+    padding: 0px 20px;
+  }
+
+  .card-row {
+    margin: 0px -15px;
+    flex: 0 0 30%;
+  }
+
+  .card-row>.card-col {
+    padding: 0 15px;
+  }
+
+  .card-box img {
+    width: 346px;
+  }
+
+  .input-0 {
+    padding: 15px 153px;
+  }
+
+}
+
+@media (max-width:1199px) {
+  .container {
+    max-width: 960px;
+    padding: 0px 20px;
+  }
+
+  .box-one {
+    padding: 103px 60px;
+  }
+
+  .box-one h2 {
+    font-size: 64px;
+  }
+
+  nav ul li {
+    font-size: 20px;
+    padding: 0px 30px;
+  }
+
+  .about-text {
+    padding: 0px 49px;
+  }
+
+  .about-img {
+    margin: 0px;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+
+  .text-inner p {
+    padding: 21px 68px;
+  }
+
+  .content-row {
+    margin: 0px -153px;
+  }
+
+  .content-col {
+    padding: 20px 153px;
+  }
+
+  .input-0 {
+    flex: 0 0 50%;
+    padding: 15px 110px;
+
+  }
+
+  .card-row {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .footer-col-2 {
+    margin: 0 -20px;
+  }
+
+  .card-row>.card-col {
+    margin-top: 20px;
+    flex: 0 0 50%;
+  }
+
+  .card-box img {
+    width: 460px;
+  }
+
+  .para-text-01 p {
+    padding: 12px 99px;
+  }
+}
+
+@media (max-width:991px) {
+  .box-one span {
+    font-size: 80px;
+  }
+
+
+  .container {
+    max-width: 720px;
+    padding: 0px 20px;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.479);
+    line-height: 80px;
+    height: 0;
+    justify-content: center;
+    transition: all 0.4s;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  nav ul.actives {
+    height: 380px;
+  }
+
+  .humburger {
+    position: absolute;
+    right: 30px;
+    bottom: 2px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .humburger .line {
+    width: 28px;
+    height: 3px;
+    margin: 5px;
+    background: rgb(163, 163, 155);
+  }
+
+  .logo {
+    margin: 0px -33px;
+  }
+
+  .about-text {
+    padding: 0px 23px;
+  }
+
+  .service-row {
+    flex-wrap: wrap;
+  }
+
+  .service-col {
+    flex: 0 0 50%;
+    padding: 0;
+  }
+
+  .food-img-0 {
+    flex: 0 0 33.4%;
+  }
+
+  .food-text-0 {
+    flex: 0 0 33.2%;
+    padding: 31px 43px;
+  }
+
+  .content-row {
+    margin: 0px -93px;
+  }
+
+  .content-col {
+    padding: 20px 93px;
+  }
+
+  .input-0 input {
+    width: 100%;
+  }
+
+  .input-0 {
+    flex: 0 0 80%;
+    padding: 15px 10px;
+    margin: 0px 76px;
+  }
+
+  .footer-col-1 {
+    flex: 0 0 50%;
+    margin: 0px -45px;
+  }
+
+  .footer-col-1 p {
+    padding: 0px 50px;
+  }
+
+  .footer-col-1 h3 {
+    padding: 10px 50px;
+  }
+
+  .footer-col-2 {
+    flex: 0 0 15%;
+    margin: 0 -43px;
+  }
+}
+
+@media (max-width:767px) {
+  .container {
+    max-width: 540px;
+    padding: 0px 20px;
+  }
+
+  .logo {
+    margin: 0px -22px;
+  }
+
+  .links a {
+    padding: 8px;
+  }
+
+  .para-text-01{
+    padding:1px;
+  }
+
+  .box-one {
+    padding: 103px 47px;
+  }
+
+  .box-one span {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+
+  .box-one h2 {
+    font-size: 44px;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    padding: 27px 43px;
+  }
+
+  .about-img img {
+    width: 422px;
+  }
+
+  .about-text span {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 33px;
+  }
+
+  .service-row {
+    flex-direction: column;
+    margin: 0px 4px;
+  }
+
+  .service-col {
+    flex: 0 0 100%;
+  }
+
+  .food-img-0 {
+    flex: 0 0 50%;
+    height: 144px;
+  }
+
+  .food-text-0 {
+    flex: 0 0 50%;
+    padding: 9px 44px;
+    height: 170px;
+    font-size: 14px;
+  }
+
+  .text-inner p {
+    font-size: 17px;
+  }
+
+
+  .food-img-0 img {
+    height: 170px;
+  }
+
+  .content-row {
+    flex-direction: column;
+    margin: 0px -76px;
+  }
+
+  .para-text-01 p {
+    padding: 12px 0px;
+  }
+
+  .text-inner p {
+    padding: 10px 0px;
+  }
+
+  .input-0 {
+    margin: 0px 59px;
+  }
+
+  .btn {
+    padding: 10px 29px;
+    width: 257px;
+  }
+
+  .text-inner h1 {
+    font-size: 22px;
+  }
+
+  .footer-col-1 {
+    margin: 0px -45px 23px -45px;
+  }
+
+  .footer-row {
+    align-items: flex-start;
+  }
+
+  .footer-col-2 {
+    margin: 0 -2px;
+    flex: 0 0 50%;
+  }
+
+  .about-us {
+    padding: 5px 0px 51px 0px;
+  }
+
+}
+
+@media (max-width:575px) {
+  .container {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+
+  .card-box img {
+    width: 350px;
+  }
+
+  .logo {
+    margin: 0px -3px;
+  }
+
+  .btn {
+    font-size: 17px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .food-text-0 p {
+    padding: 0;
+  }
+
+  .food-text-0 {
+    padding: 30px 8px;
+  }
+
+  .food-text-0 span {
+    font-size: 16px;
+  }
+
+  .food-text-0 b {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+  }
+
+  .content-tlg h1 {
+    font-size: 30px;
+  }
+
+
+  .footer-col-2 {
+    flex: 0 0 50%;
+    margin: 20px 0px;
+
+  }
+
+  .footer-col-1 {
+    flex: 0 0 100%;
+  }
+
+  .box-one {
+    padding: 76px 32px;
+    max-width: 90%;
+  }
+
+  .box-one h2 {
+    font-size: 26px;
+    margin-top: 10px;
+  }
+
+  .box-one span {
+    font-size: 40px;
+  }
+
+  .btn {
+    width: 186px;
+    padding: 6px 29px;
+  }
+
+  .btn a {
+    font-size: 22px;
+  }
+
+  .about-img img {
+    width: 302px;
+  }
+
+  .text-food h1 {
+    font-size: 32px;
+  }
+
+
+  .about-text span {
+    font-size: 23px;
+  }
+
+  .service-box {
+    padding: 26px 10px;
+  }
+
+  .food-text-0 span {
+    padding: 3px 0px;
+  }
+
+  .form {
+    margin: 0px -86px;
+  }
+
+  .input-0 {
+    margin: 0;
+    flex: 0 0 63%;
+    padding-left: 80px;
+  }
+
+  .btn0 {
+    margin: 20px 101px;
+  }
+
+  .para-text-01 span {
+    font-size: 22px;
+    margin-top: 12px;
+    display: block;
+  }
+
+  .icons-02{
+    margin-top: 20px;
+  }
+
+  .input-0 input {
+    width: 334px;
+  }
+
+  .card-box img {
+    width: 292px;
+  }
+
+  .banner-sec-one {
+    height: 100vh;
+  }
+
+  .input-0 input {
+    padding: 5px 13px;
+  }
+
+  .about-text {
+    padding: 27px 13px;
+  }
+
+  .text-header-0 h1 {
+    font-size: 36px;
+  }
+
+}
